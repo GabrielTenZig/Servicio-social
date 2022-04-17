@@ -6,26 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Integrantes</title>
 
+    <link rel="stylesheet" href="./css/variables.css">
     <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/general_styles.css">
+    <link rel="stylesheet" href="./css/navegation.css">
 
 </head>
 <body>
-
-    <header>
-        <div>
-            <img src="" alt="Lodo de la Universidad del Mar">
-            <p> CUERPO ACADÁMICO SISTEMAS INTELIGENTES </p>
+    
+    <nav class="navegacion">
+        <div class="navegacion__logotipo">
+            <a href="./" rel="noopener noreferrer">
+                <img src="./images/logo_umar.png" alt="Logotipo de la Universidad del Mar" draggable="false">
+            </a>
+            <span>CUERPO ACADEMICO SISTEMAS INTELIGENTES</span>
         </div>
-        <nav>
-            <ul>
-                <li> <a href="./index.html"> Inicio </a> </li>
-                <li> <a href="./proyectos.html"> Proyectos </a> </li>
-                <li> <a href="./articulos.html"> Artículos </a> </li>
-                <li> <a href="#"> Integrantes </a> </li>
-                <li> <a href="acerca_de.html"> Acerca de </a> </li>
-            </ul>
-        </nav>
-    </header>
+        <div class="menu">
+            <input class="menu__checkbox" type="checkbox" name="" id="menu_hamburguesa">
+            <label class="menu__icono_checkbox" for="menu_hamburguesa">
+            <img src="./images/menu-hamburguesa.png" alt="">
+            </label>
+            <div class="menu__items">
+                <a class="menu__enlace" href="./" rel="noopener noreferrer"> Inicio </a>
+                <a class="menu__enlace"  rel="noopener noreferrer" href="./proyectos.html"> Proyectos </a>
+                <a class="menu__enlace"  rel="noopener noreferrer" href="./articulos.html"> Artículos </a>
+                <a class="menu__enlace menu__enlace--seleccionado"  rel="noopener noreferrer" href="#"> Integrantes </a>
+                <a class="menu__enlace"  rel="noopener noreferrer" href="acerca_de.html"> Acerca de </a>
+            </div>
+        </div>
+    </nav>
 
     <main>
 

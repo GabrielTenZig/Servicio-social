@@ -8,25 +8,41 @@
     <title>Inicio</title>
 
     <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/general_styles.css">
+
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/navegation.css">
+
+    <link rel="stylesheet" href="./css/index.css">
+
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 
 <body>
     
-    <header>
-        <div>
-            <img src="" alt="Lodo de la Universidad del Mar">
-            <p> CUERPO ACADÁMICO SISTEMAS INTELIGENTES </p>
+    <nav class="navegacion">
+        <div class="navegacion__logotipo">
+            <a href="./" rel="noopener noreferrer">
+                <img src="./images/logo_umar.png" alt="Logotipo de la Universidad del Mar" draggable="false">
+            </a>
+            <span>CUERPO ACADEMICO SISTEMAS INTELIGENTES</span>
         </div>
-        <nav>
-            <ul>
-                <li> <a href="#"> Inicio </a> </li>
-                <li> <a href="./proyectos.html"> Proyectos </a> </li>
-                <li> <a href="./articulos.html"> Artículos </a> </li>
-                <li> <a href="./integrantes.html"> Integrantes </a> </li>
-                <li> <a href="acerca_de.html"> Acerca de </a> </li>
-            </ul>
-        </nav>
-    </header>
+        <div class="menu">
+            <input class="menu__checkbox" type="checkbox" name="" id="menu_hamburguesa">
+            <label class="menu__icono_checkbox" for="menu_hamburguesa">
+            <img src="./images/menu-hamburguesa.png" alt="">
+            </label>
+            <div class="menu__items">
+                <a class="menu__enlace menu__enlace--seleccionado" href="./" rel="noopener noreferrer"> Inicio </a>
+                <a class="menu__enlace"  rel="noopener noreferrer" href="./proyectos.html"> Proyectos </a>
+                <a class="menu__enlace"  rel="noopener noreferrer" href="./articulos.html"> Artículos </a>
+                <a class="menu__enlace"  rel="noopener noreferrer" href="./integrantes.html"> Integrantes </a>
+                <a class="menu__enlace"  rel="noopener noreferrer" href="acerca_de.html"> Acerca de </a>
+            </div>
+        </div>
+    </nav>
 
     <main>
 
@@ -65,24 +81,36 @@
         <p> Las investigaciones desarrolladas son publicadas mediante artículos. Los cuales son redactados por los miembros del CASI y enviados a diferentes revistas de renombre en el ámbito científico. </p>
 
         <h3> Ficha tecnica del cuerpo académico Sistemas Inteligentes </h3>
-        <div>
-            <div>
-                <img src="" alt="Logo del Cuerpo Académico Sistemas Inteligentes">
+        <div class="technical_card">
+            <div class="technical_card__header">
+                <img src="./images/logo_umar.png" alt="Logo del Cuerpo Académico Sistemas Inteligentes">
                 <div>
                     <p> <span> Nombre del cuerpo académico: </span> Sistemas Inteligentes.</p>
                     <p> <span> Fecha de creación: </span> xx de xx de 2018. </p>
                     <p> <span> Institución de la que depende: </span> Universidad del Mar campus Puerto Escondido. </p>
                 </div>
             </div>
-            <div>
-                <p> Actividades: </p>
-                <ul>
-                    <li> Investigación. </li>
-                    <li> Desarrollo tecnológico. </li>
-                    <li> Publicación de artículos. </li>
-                </ul>
+            <div class="technical_card__body">
+                <div>
+                    <p> Actividades: </p>
+                    <ul>
+                        <li> Investigación. </li>
+                        <li> Desarrollo tecnológico. </li>
+                        <li> Publicación de artículos. </li>
+                    </ul>
+                </div>
+                <div>
+                    <p> Miembros: </p>
+                    <ul>
+                        <li> M. en C. José Francisco Delgado Orta. </li>
+                        <li> Dr. Ángel Salvador Vásquez López. </li>
+                        <li> Dr. Jorge Ochoa Somuano. </li>
+                        <li> M. en C. Omar Antonio Cruz Maldonado. </li>
+                        <li> Dr. Ángel Antonio Ayala Suñiga. </li>
+                        <li> Dra. María Alejandra Menéndez Ortiz. </li>
+                    </ul>
+                </div>
             </div>
-            <div></div>
         </div>
 
     </main>
@@ -95,7 +123,7 @@
         </div>
 
         <div>
-            <img src="" alt="Logo de la Universidad del Mar">
+            <img src="./images/logo_umar.png" alt="Logo de la Universidad del Mar">
         </div>
     </footer>
 
