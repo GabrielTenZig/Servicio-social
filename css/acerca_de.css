@@ -1,0 +1,99 @@
+/* ******************************************************* */
+/* **********   SECCION DE CARD's INTEGRANTES   ********** */
+/* ******************************************************* */
+
+.cards_integrantes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.card_integrante {
+    box-shadow: 4px 4px 8px #cfcfcf;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    width: min(550px, 100%);
+    min-height: 300px;
+    /* height: auto; */
+    /* min-width: 600px;    */
+
+    display: inline-flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card_integrante > * {
+    display: inline-block;
+    width: min(450px, 100%);
+}
+
+.card_integrante__avatar {
+    display: inline;
+    width: min(200px, 100%);
+    height: 90%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.card_integrante__avatar > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card_integrante__info {
+    padding: 1rem;
+    /* width: 100%; */
+}
+
+.card_integrante__info > * {
+    margin: 0;
+    margin-bottom: 1rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_integrante__info > h3 {
+    margin-bottom: 1rem;
+}   
+
+.card_integrante__info > * > :nth-child(2) {
+    font-size: 14px;
+    list-style: none;
+    margin-left: 1rem;
+    font-family: var(--font-family);
+}
+
+.card_integrante__info > button {
+    height: 40px;
+    border-radius: 10px;
+    /* outline: none; */
+    margin-top: 2rem;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: var(--button-color);
+    padding: 0 3rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.card_integrante__info > button:hover {
+    filter: brightness(1.1);
+}
+
+.card_integrante__info > button:active {
+    filter: brightness(1.2);
+}
+
+
+
+/* ******************************************************* */
+/* ***************   SECCION DE CONTACTO   *************** */
+/* ******************************************************* */

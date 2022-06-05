@@ -1,0 +1,45 @@
+/* ********************************************** */
+/* **********   SECCIÓN DE PROYECTOS   ********** */
+/* ********************************************** */
+
+.cards_articulos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.card_articulo {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #cfcfcf;
+    max-width: 600px;
+    margin-bottom: 3rem;
+}
+
+.card_articulo > * {
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.card_articulo > button {
+    height: 40px;
+    border-radius: 10px;
+    /* outline: none; */
+    margin-top: 2rem;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: var(--button-color);
+    padding: 0 3rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.card_articulo > button:hover {
+    filter: brightness(1.1);
+}
+
+.card_articulo > button:active {
+    filter: brightness(1.2);
+}
