@@ -97,3 +97,98 @@
 /* ******************************************************* */
 /* ***************   SECCION DE CONTACTO   *************** */
 /* ******************************************************* */
+
+
+
+
+/* ******************************************************* */
+/* *****************   SECCION DE MODAL   **************** */
+/* ******************************************************* */
+.modal_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-color: #33333366;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 80vw;
+    height: 100vh;
+    border: 3px solid white;
+    background-color: #fff;
+    /* border-radius: 5px; */
+    padding: 3rem 2rem;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.modal > *:not(.modal__exit, h2, h3) {
+    /* border: 1px solid black; */
+    margin-bottom: 2rem;
+    max-width: 600px;
+}
+
+.modal__exit {
+    padding: 0.2rem;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #a4a4a4;
+    font-size: 22px;
+    border-radius: 100%;
+    font-weight: bold;
+    font-family: helvetica;
+    color: #444;
+    background-color: #fff;
+    /* box-shadow: 2px 2px 4px #c9c9c9, -2px -2px 4px #c9c9c9; */
+    cursor: pointer;
+
+    position: fixed;
+    right: 20px;
+    top: 5px;
+}
+
+.modal__container_foto {
+    /* width: min(80%, 300px); */
+    /* aspect-ratio: 2/1; */
+    /* height: 100px; */
+    /* border-radius: 100%; */
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+}
+
+.modal__container_foto img {
+    width: min(80%, 300px);
+    /* height: 100%; */
+    border-radius: 100%;
+    padding: 1rem;
+    box-shadow: 4px 4px 8px #d7d7d7;
+}
+
+.modal__container_correos > li {
+    word-break: break-all;
+}
+
+.modal__container_proyectos,
+.modal__container_articulos {
+    padding: 1rem 0;
+}
+
+.modal__container_proyectos > li ,
+.modal__container_articulos > li {
+    /* background-color: royalblue; */
+    margin-bottom: 0.5rem;
+}

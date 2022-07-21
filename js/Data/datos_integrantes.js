@@ -12,11 +12,43 @@ export default [
             {
                 nombre: "Desarrollo de aplicaciones móviles para la preservación y difusión de la lengua zapoteca.",
                 url: "./proyectos.html#aplicacines_difusion_zapoteca"
+            },
+            {
+                nombre: "Proyecto 2: Desarrollo de aplicaciones móviles para la preservación y difusión de la lengua zapoteca.",
+                url: "./proyectos.html#2aplicacines_difusion_zapoteca"
+            },
+            {
+                nombre: "Proyeto 3: Desarrollo de aplicaciones móviles para la preservación y difusión de la lengua zapoteca.",
+                url: "./proyectos.html#3aplicacines_difusion_zapoteca"
+            },
+            {
+                nombre: "Agregando más texto al título del Proyecto 4: Desarrollo de aplicaciones móviles para la preservación y difusión de la lengua zapoteca.",
+                url: "./proyectos.html#4aplicacines_difusion_zapoteca"
             }
         ],
         articulos: [
             {
                 nombre: "La importancia de la preservación, promoción y difusión de la lengua zapoteca.",
+                url: "./articulos.html#importancia_difusion_zapoteca"
+            },
+            {
+                nombre: "Artículo 2: La importancia de la preservación, promoción y difusión de la lengua zapoteca.",
+                url: "./articulos.html#importancia_difusion_zapoteca"
+            },
+            {
+                nombre: "Artículo 3: La importancia de la preservación, promoción y difusión de la lengua zapoteca.",
+                url: "./articulos.html#importancia_difusion_zapoteca"
+            },
+            {
+                nombre: "Artículo 4: La importancia de la preservación, promoción y difusión de la lengua zapoteca.",
+                url: "./articulos.html#importancia_difusion_zapoteca"
+            },
+            {
+                nombre: "Artículo 5: La importancia de la preservación, promoción y difusión de la lengua zapoteca.",
+                url: "./articulos.html#importancia_difusion_zapoteca"
+            },
+            {
+                nombre: "Artículo 6: La importancia de la preservación, promoción y difusión de la lengua zapoteca.",
                 url: "./articulos.html#importancia_difusion_zapoteca"
             }
         ]
