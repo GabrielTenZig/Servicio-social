@@ -90,21 +90,6 @@ const mostrar_modal_integrante = async (id_param) => {
 ////////////  FUNCION PARA RECUPERAR UN INTEGRANTE DADO UN ID  ///////////
 const obtenerIntegrante = (id) => data_integrantes.filter(data_integrante => data_integrante.id === id )[0]
 
-// const obtenerIntegrante = (id) => {
-//     console.log("Llego ID: ", id, "Tipo: ", typeof(id))
-//     data_integrantes.filter(
-//         data_integrante => {
-//             if (data_integrante.id === id) {
-//                 console.log("Devolviendo:: ", data_integrante)
-//                 return data_integrante
-//             } else {
-//                 console.log("** ", data_integrante)
-//             }
-//         }
-//     )
-// }
-
-
 //////////////////////////////////////////////////////////////////
 ///////  CLICK FUERA DEL AREA DEL MODAL (Oculta el modal)  ///////
 //////////////////////////////////////////////////////////////////

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectos</title>
 
-    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/general_styles.css">
@@ -46,7 +46,7 @@
 
         <div class="cards_proyectos">
 
-            <div class="card_proyecto">
+            <!-- <div class="card_proyecto">
                 <h2> Desarrollo  de aplicaciones móviles para la preservación, promoción y difusión de la lengua zapoteca </h2>
                 <span>
                     <p> Estado: </p>
@@ -59,67 +59,7 @@
                     </p>
                 </span>
                 <button> Ver Proyecto </button>
-            </div>
-    
-            <div class="card_proyecto">
-                <h2> Nombre del proyecto </h2>
-                <span>
-                    <p> Estado: </p>
-                    <p> Terminado </p>
-                </span>
-                <span>
-                    <p> Introducción: </p>
-                    <p> 
-                        Este es un texto de prueba de la introducción de un proyecto del cuerpo académico. En este proyecto se desarrollo X cosa, utilizando la metodología Y. 
-                    </p>
-                </span>
-                <button> Ver Proyecto </button>
-            </div>
-    
-            <div class="card_proyecto">
-                <h2> Nombre del proyecto </h2>
-                <span>
-                    <p> Estado: </p>
-                    <p> Terminado </p>
-                </span>
-                <span>
-                    <p> Introducción: </p>
-                    <p> 
-                        Este es un texto de prueba de la introducción de un proyecto del cuerpo académico. En este proyecto se desarrollo X cosa, utilizando la metodología Y. 
-                    </p>
-                </span>
-                <button> Ver Proyecto </button>
-            </div>
-    
-            <div class="card_proyecto">
-                <h2> Nombre del proyecto </h2>
-                <span>
-                    <p> Estado: </p>
-                    <p> Terminado </p>
-                </span>
-                <span>
-                    <p> Introducción: </p>
-                    <p> 
-                        Este es un texto de prueba de la introducción de un proyecto del cuerpo académico. En este proyecto se desarrollo X cosa, utilizando la metodología Y. 
-                    </p>
-                </span>
-                <button> Ver Proyecto </button>
-            </div>
-    
-            <div class="card_proyecto">
-                <h2> Nombre del proyecto </h2>
-                <span>
-                    <p> Estado: </p>
-                    <p> Terminado </p>
-                </span>
-                <span>
-                    <p> Introducción: </p>
-                    <p> 
-                        Este es un texto de prueba de la introducción de un proyecto del cuerpo académico. En este proyecto se desarrollo X cosa, utilizando la metodología Y. 
-                    </p>
-                </span>
-                <button> Ver Proyecto </button>
-            </div>
+            </div> -->
 
         </div>
 
@@ -137,5 +77,45 @@
         </div>
     </footer>
 
+    <div class="modal_container">
+
+        <div class="modal">
+            <button class="modal__exit">x</button>
+    
+            <h2 class="modal__nombre"></h2>
+
+            <div>
+                <p>Estado:</p>
+                <p class="modal__estado"></p>
+            </div>
+
+            <div>
+                <p>Participantes:</p>
+                <ul class="modal__container_participantes"></ul>
+            </div>
+
+            <div>
+                <p>Introducción:</p>
+                <p class="modal__introducción"></p>
+            </div>
+
+            <div>
+                <p>Objetivos:</p>
+                <ul class="modal__container_objetivos"></ul>
+            </div>
+
+            <div>
+                <p>Fecha de finalización estimada:</p>
+                <p class="modal__fecha_finalizacion"></p>
+            </div>
+
+            <div>
+                <p>Artículos escritos:</p>
+                <ul class="modal__container_articulos"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/proyectos.js" type="module"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artículos</title>
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/general_styles.css">
@@ -45,7 +45,7 @@
 
         <div class="cards_articulos">
 
-            <div class="card_articulo">
+            <!-- <div class="card_articulo">
                 <h2> La importancia de la preservación, promoción y difusión de la lengua zapoteca </h2>
                 <span>
                     <p> Publicado al: </p>
@@ -59,71 +59,7 @@
                     </p>
                 </span>
                 <button> Ver Artículo </button>
-            </div>
-    
-            <div class="card_articulo">
-                <h2> Título del artículo </h2>
-                <span>
-                    <p> Publicado al: </p>
-                    
-                    <p> <time datetime="2022-04-03T12:00">xx de xx de xxxx</time> </p>
-                </span>
-                <span>
-                    <p> Resumen: </p>
-                    <p> 
-                        Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ...
-                    </p>
-                </span>
-                <button> Ver Artículo </button>
-            </div>
-    
-            <div class="card_articulo">
-                <h2> Título del artículo </h2>
-                <span>
-                    <p> Publicado al: </p>
-                    
-                    <p> <time datetime="2022-04-03T12:00">xx de xx de xxxx</time> </p>
-                </span>
-                <span>
-                    <p> Resumen: </p>
-                    <p> 
-                        Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ...
-                    </p>
-                </span>
-                <button> Ver Artículo </button>
-            </div>
-    
-            <div class="card_articulo">
-                <h2> Título del artículo </h2>
-                <span>
-                    <p> Publicado al: </p>
-                    
-                    <p> <time datetime="2022-04-03T12:00">xx de xx de xxxx</time> </p>
-                </span>
-                <span>
-                    <p> Resumen: </p>
-                    <p> 
-                        Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ...
-                    </p>
-                </span>
-                <button> Ver Artículo </button>
-            </div>
-    
-            <div class="card_articulo">
-                <h2> Título del artículo </h2>
-                <span>
-                    <p> Publicado al: </p>
-                    
-                    <p> <time datetime="2022-04-03T12:00">xx de xx de xxxx</time> </p>
-                </span>
-                <span>
-                    <p> Resumen: </p>
-                    <p> 
-                        Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto ...
-                    </p>
-                </span>
-                <button> Ver Artículo </button>
-            </div>
+            </div> -->
 
         </div>
 
@@ -140,6 +76,49 @@
             <img src="./images/logo_umar.png" alt="Logo de la Universidad del Mar">
         </div>
     </footer>
+
+    <div class="modal_container">
+
+        <div class="modal">
+            <button class="modal__exit">x</button>
     
+            <h2 class="modal__nombre"></h2>
+
+            <div>
+                <p>Publicado al:</p>
+                <p class="modal__fecha_publicacion"></p>
+            </div>
+
+            <div>
+                <p>Autores:</p>
+                <ul class="modal__container_autores"></ul>
+            </div>
+
+            <div>
+                <p>Resumen:</p>
+                <p class="modal__resumen"></p>
+            </div>
+
+            <div>
+                <p>Enlace al artículo publicado:</p>
+                <a class="modal__enlace_articulo">Algo</a>
+            </div>
+
+            <div class="modal__pdf_container">
+                <p>PDF del artículo:</p>
+                <embed src="https://www.redalyc.org/pdf/778/77812441004.pdf" type="application/pdf" width="100%" height="100%" />
+                <!-- <iframe src="./articulos/prueba.pdf" height="100%" width="100%"></iframe> -->
+                <!-- <object data="https://www.redalyc.org/pdf/778/77812441004.pdf" width="500" height="500" ></object> -->
+                <!-- <object data="http://cienciaymar.mx/Revista/index.php/cienciaymar/issue/view/79/ART77_1" width="500" height="500" ></object> -->
+            
+
+                <!-- <iframe src="http://docs.google.com/gview?url=https://www.redalyc.org/pdf/778/77812441004.pdf&embedded=true" style="width:500px; height:375px;" frameborder="0"></iframe> -->
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./js/articulos.js" type="module"></script>
 </body>
 </html>

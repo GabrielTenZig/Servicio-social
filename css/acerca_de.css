@@ -1,3 +1,25 @@
+h1 {
+    text-align: center;
+    padding: 2rem;
+    font-size: 30px;
+    /* background-color: rebeccapurple; */
+}
+
+h4 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+section {
+    margin: 3rem 0;
+    /* background-color: gray; */
+}
+
+section:last-child {
+    max-width: 1000px;
+    margin: 5rem auto;
+}
+
 /* ******************************************************* */
 /* **********   SECCION DE CARD's INTEGRANTES   ********** */
 /* ******************************************************* */

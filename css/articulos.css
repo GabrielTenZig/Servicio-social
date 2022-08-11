@@ -43,3 +43,87 @@
 .card_articulo > button:active {
     filter: brightness(1.2);
 }
+
+/* ******************************************************* */
+/* *****************   SECCION DE MODAL   **************** */
+/* ******************************************************* */
+.modal_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-color: #33333366;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 80vw;
+    height: 100vh;
+    border: 3px solid white;
+    background-color: #fff;
+    padding: 3rem 2rem;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.modal > *:not(.modal__exit) {
+    margin-bottom: 2rem;
+    max-width: min(800px, 100%);
+    min-width: 80%;
+}
+
+.modal__exit {
+    padding: 0.2rem;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #a4a4a4;
+    font-size: 22px;
+    border-radius: 100%;
+    font-weight: bold;
+    font-family: helvetica;
+    color: #444;
+    background-color: #fff;
+    cursor: pointer;
+
+    position: fixed;
+    right: 20px;
+    top: 5px;
+}
+
+.modal > h2 {
+    width: 100%;
+    text-align: center;
+}
+.modal > div {
+    padding: 1rem 0;
+    /* background-color: rebeccapurple; */
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal > div > *:first-child {
+    min-width: min(100%, 300px);
+    margin-bottom: 1rem;
+}
+
+.modal > div > *:nth-child(2) {
+    /* background-color: yellow; */
+    /* display: inline; */
+}
+
+.modal__pdf_container {
+    min-height: 700px !important;
+    /* padding: 1rem 0.5rem !important; */
+}
