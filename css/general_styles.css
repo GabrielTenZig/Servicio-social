@@ -57,6 +57,8 @@ h1,
 h2,
 h3, 
 h4,
+h5,
+h6,
 footer, 
 nav {
     font-family: var(--title-font-family);
@@ -69,6 +71,8 @@ main h1,
 main h2,
 main h3,
 main h4,
+main h5,
+main h6,
 footer {
     margin-top: 2rem;
     margin-bottom: 1rem;

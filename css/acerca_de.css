@@ -157,7 +157,7 @@ section:last-child {
     overflow-x: hidden;
 }
 
-.modal > *:not(.modal__exit, h2, h3) {
+.modal > *:not(.modal__exit, h2, h3, h4, h5, h6) {
     /* border: 1px solid black; */
     margin-bottom: 2rem;
     max-width: 600px;

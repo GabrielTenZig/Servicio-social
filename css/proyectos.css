@@ -12,13 +12,30 @@
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 4px 4px 8px #cfcfcf;
+    min-width: min(400px, 100%);
     max-width: 600px;
     margin-bottom: 3rem;
 }
 
-.card_proyecto > * {
-    margin: 0;
-    margin-bottom: 2rem;
+.card_proyecto > span {
+    /* background-color: red; */
+    display: block;
+    padding: 3px;
+    margin-bottom: 1rem;
+}
+
+.card_proyecto > span > *:first-child {
+    /* background-color: rebeccapurple; */
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.card_proyecto > span > *:nth-child(2) {
+    /* background-color: orange; */
+    display: inline-block;
+    text-align: justify;
 }
 
 .card_proyecto > button {
