@@ -95,10 +95,14 @@
     overflow-x: hidden;
 }
 
-.modal > *:not(.modal__exit) {
+.modal > h2 {
+    margin-bottom: 2.5rem;
+}
+
+.modal > p,
+.modal > ul {
     margin-bottom: 2rem;
-    width: min(100%, 700px);
-    padding: 1rem;
+    /* display: inline-block; */
 }
 
 .modal__exit {
