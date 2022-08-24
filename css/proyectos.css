@@ -10,7 +10,7 @@
 
 .card_proyecto {
     padding: 2rem;
-    border-radius: 10px;
+    border-radius: 4px;
     box-shadow: 4px 4px 8px #cfcfcf;
     min-width: min(400px, 100%);
     max-width: 600px;
@@ -103,6 +103,7 @@
 .modal > ul {
     margin-bottom: 2rem;
     /* display: inline-block; */
+    max-width: min(800px, 100%);
 }
 
 .modal__exit {

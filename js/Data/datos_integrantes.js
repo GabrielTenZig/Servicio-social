@@ -447,7 +447,7 @@ export default [
         nombre: "Ángel Salvador Vasquez López",
         grado: "Doctorado",
         ies_del_grado: "Colegio de Estudios Superiores y Especialidades del Estado de Oaxaca",
-        area_del_grado: "Investigación y desarrollo Científico - Tecnologíco",
+        area_del_grado: "Investigación y desarrollo Científico-Tecnologíco",
         nivel_sni: "",
         con_perfil_prodep: "No",
         lgac_individual: "Diseño e implementación de Sistemas de Información",

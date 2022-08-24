@@ -3,6 +3,14 @@ import data_integrantes from "./Data/datos_integrantes.js"
 const cards_integrantes_container = document.getElementsByClassName("cards_integrantes")[0]
 
 data_integrantes.forEach(data_integrante => {
+    console.log("AA: ", data_integrante.correos)
+
+    let list_correos = ""
+    
+    list_correos += data_integrante.correos.map(correo => {
+        return `<li>${correo}</li>`
+    }).flat().join('')
+    
     cards_integrantes_container.innerHTML += `
         <div class="card_integrante">
             <picture class="card_integrante__avatar">
@@ -10,17 +18,11 @@ data_integrantes.forEach(data_integrante => {
             </picture>
             <div class="card_integrante__info">
                 <h3> ${data_integrante.nombre} </h3>
-                <div>
-                    <p> Grado </p>
-                    <p> ${data_integrante.grado} </p>
-                </div>
-                <div>
-                    <p> Contacto </p>
-                    <ul> 
-                        <li> correo@dominio </li>
-                        <li> correo@dominio </li>
-                    </ul>
-                </div>
+                <p> ${data_integrante.grado} </p>
+                <p> ${data_integrante.area_del_grado}</p>
+                <ul>
+                    ${list_correos} 
+                </ul>
                 <button id="${data_integrante.id}"> Ver más </button>
             </div>
         </div>`;
@@ -137,7 +139,7 @@ const mostrar_modal_integrante = async (id_param) => {
                             ${producto.cita}
                         </a>
                     </li>
-                `)}
+                `).flat().join("")}
             </ul>
         </li>
         `

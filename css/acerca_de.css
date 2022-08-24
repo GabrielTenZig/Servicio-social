@@ -2,7 +2,6 @@ h1 {
     text-align: center;
     padding: 2rem;
     font-size: 30px;
-    /* background-color: rebeccapurple; */
 }
 
 h4 {
@@ -12,7 +11,6 @@ h4 {
 
 section {
     margin: 3rem 0;
-    /* background-color: gray; */
 }
 
 section:last-child {
@@ -32,17 +30,14 @@ section:last-child {
 
 .card_integrante {
     box-shadow: 4px 4px 8px #cfcfcf;
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 1rem;
     margin-bottom: 3rem;
     width: min(550px, 100%);
     min-height: 300px;
-    /* height: auto; */
-    /* min-width: 600px;    */
 
     display: inline-flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
 
     justify-content: space-around;
     align-items: center;
@@ -69,32 +64,34 @@ section:last-child {
 
 .card_integrante__info {
     padding: 1rem;
-    /* width: 100%; */
 }
 
-.card_integrante__info > * {
-    margin: 0;
-    margin-bottom: 1rem;
-    
-    display: flex;
-    flex-wrap: wrap;
+.card_integrante__info > p:first-of-type {
+    color: #858585;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 0.5rem;
 }
 
-.card_integrante__info > h3 {
-    margin-bottom: 1rem;
-}   
+.card_integrante__info > p:nth-of-type(2) {
+    font-size: 16px;
+    font-weight: bold;
+    color: #636363;
+}
 
-.card_integrante__info > * > :nth-child(2) {
-    font-size: 14px;
+.card_integrante__info > ul {
+    /* background-color: rebeccapurple; */
+    margin: 1rem 0;
+}
+
+.card_integrante__info > ul > li {
     list-style: none;
-    margin-left: 1rem;
-    font-family: var(--font-family);
+    font-size: 12px;
 }
 
 .card_integrante__info > button {
     height: 40px;
     border-radius: 10px;
-    /* outline: none; */
     margin-top: 2rem;
     border: none;
     color: #fff;
@@ -145,7 +142,6 @@ section:last-child {
     height: 100vh;
     border: 3px solid white;
     background-color: #fff;
-    /* border-radius: 5px; */
     padding: 3rem 2rem;
     position: relative;
     
@@ -158,8 +154,7 @@ section:last-child {
 }
 
 .modal > *:not(.modal__exit, h2, h3, h4, h5, h6) {
-    /* border: 1px solid black; */
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     max-width: 600px;
 }
 
@@ -174,7 +169,6 @@ section:last-child {
     font-family: helvetica;
     color: #444;
     background-color: #fff;
-    /* box-shadow: 2px 2px 4px #c9c9c9, -2px -2px 4px #c9c9c9; */
     cursor: pointer;
 
     position: fixed;
@@ -183,18 +177,12 @@ section:last-child {
 }
 
 .modal__container_foto {
-    /* width: min(80%, 300px); */
-    /* aspect-ratio: 2/1; */
-    /* height: 100px; */
-    /* border-radius: 100%; */
-    /* background-color: rebeccapurple; */
     display: flex;
     justify-content: center;
 }
 
 .modal__container_foto img {
     width: min(80%, 300px);
-    /* height: 100%; */
     border-radius: 100%;
     padding: 1rem;
     box-shadow: 4px 4px 8px #d7d7d7;
@@ -211,6 +199,26 @@ section:last-child {
 
 .modal__container_proyectos > li ,
 .modal__container_articulos > li {
-    /* background-color: royalblue; */
     margin-bottom: 0.5rem;
+}
+
+.modal__container_produccion_academica > li {
+    /* background-color: rgba(102, 51, 153, 0.335); */
+    text-align: center;
+    margin: 2rem 0;
+    text-align: left;
+    list-style: none;
+    font-weight: 600;
+}
+
+.modal__container_produccion_academica > li > ul {
+    /* background-color: rgb(255, 166, 0); */
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.modal__container_produccion_academica > li > ul > li {
+    /* background-color: rgba(0, 0, 255, 0.309); */
+    margin: 1rem auto;
+    word-break: break-all;
 }
