@@ -2,6 +2,8 @@ import data_proyectos from "./Data/datos_proyectos.js"
 
 const cards_proyectos_container = document.getElementsByClassName("cards_proyectos")[0]
 
+
+
 data_proyectos.forEach(data_proyecto => {
     cards_proyectos_container.innerHTML += `
         <div class="card_proyecto">
@@ -11,8 +13,8 @@ data_proyectos.forEach(data_proyecto => {
                 <p> ${data_proyecto.estado} </p>
             </span>
             <span>
-                <p> Introducción: </p>
-                <p> ${data_proyecto.introduccion} </p>
+                <p> Resumen: </p>
+                <p> ${data_proyecto.resumen} </p>
             </span>
             <button id="${data_proyecto.id}"> Ver Proyecto </button>
         </div>`;

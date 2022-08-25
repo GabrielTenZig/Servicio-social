@@ -10,9 +10,9 @@ data_integrantes.forEach(data_integrante => {
     list_correos += data_integrante.correos.map(correo => {
         return `<li>${correo}</li>`
     }).flat().join('')
-    
+
     cards_integrantes_container.innerHTML += `
-        <div class="card_integrante">
+        <div class="card_integrante" id="id_integrante=${data_integrante.id}">
             <picture class="card_integrante__avatar">
                 <img src="./images/avatar-user.png" alt="Avatar de integrante">
             </picture>

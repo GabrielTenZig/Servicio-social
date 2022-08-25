@@ -11,32 +11,32 @@ export default [
         integrantes_del_ca_que_participan: [
             {
                 nombre: "M. en C. José Francisco Delgado Orta",
-                url: "./acerca_de.html#jose_delgado",
+                url: "./acerca_de.html#id_integrante=2",
                 posision: "Director"
             },
             {
                 nombre: "Dr. Ángel Salvador López Vásquez",
-                url: "./acerca_de.html#angel_lopez",
+                url: "./acerca_de.html#id_integrante=4",
                 posision: "Colaborador"
             },
             {
                 nombre: "Dr. Jorge Ochoa Somuano",
-                url: "./acerca_de.html#jorge_ochoa",
+                url: "./acerca_de.html#id_integrante=3",
                 posision: "Colaborador"
             },
             {
                 nombre: "M. en .C Omar Antonio Cruz Maldonado",
-                url: "./acerca_de.html#omar_cruz",
+                url: "./acerca_de.html#id_integrante=1",
                 posision: "Colaborador"
             },
             {
                 nombre: "Dr. Ángel Antonio Ayala Zúñiga",
-                url: "./acerca_de.html#angel_ayala",
+                url: "./acerca_de.html#id_integrante=0",
                 posision: "Colaborador"
             },
             {
                 nombre: "Dra. María Alejandra Menéndez Ortiz",
-                url: "./acerca_de.html#maria_menendez",
+                url: "./acerca_de.html#id_integrante=5",
                 posision: "Colaborador"
             }
         ],
@@ -51,11 +51,11 @@ export default [
         produccion_academica_relacionada: [
             {
                 nombre: "Lo a priori y el carácter constitutivo de la geometría.",
-                url: "./articulos.html#Lo_a_priori"
+                url: "./articulos.html#id_articulo=2"
             },
             {
                 nombre: "Aplicaciones para dispositivos móviles utilizando frameworks de software libre: Caso de estudio IONIC y CAPACITOR.",
-                url: "./articulos.html#Aplicaciones_para_dispositivos"
+                url: "./articulos.html#id_articulo=3"
             },
             {
                 nombre: "Desarrollo de una aplicación móvil híbrida para el despliegue de una galería fotográfica utilizando los frameworks open source Ionic y Capacitor.",
@@ -84,7 +84,7 @@ export default [
         integrantes_del_ca_que_participan: [
             {
                 nombre: "M. en C. José Francisco Delgado Orta",
-                url: "./acerca_de.html#jose_delgado",
+                url: "./acerca_de.html#id_integrante=2",
                 posision: "Director"
             },
         ],
@@ -122,7 +122,7 @@ export default [
         integrantes_del_ca_que_participan: [
             {
                 nombre: "M. en C. José Francisco Delgado Orta",
-                url: "./acerca_de.html#jose_delgado",
+                url: "./acerca_de.html#id_integrante=2",
                 posision: "Director"
             },
         ],
@@ -156,7 +156,7 @@ export default [
         integrantes_del_ca_que_participan: [
             {
                 nombre: "M. en C. José Francisco Delgado Orta",
-                url: "./acerca_de.html#jose_delgado",
+                url: "./acerca_de.html#id_integrante=2",
                 posision: "Colaborador"
             },
         ],

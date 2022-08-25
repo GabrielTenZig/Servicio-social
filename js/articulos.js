@@ -55,10 +55,20 @@ const mostrar_modal_articulo = async (id_param) => {
     elem_fecha_publicacion.textContent = data_articulo.fecha_publicacion
     
     data_articulo.autores.forEach(autor => {
-        elem_container_autores.innerHTML += `
+
+        if (autor.url.length == 0) {
+
+        } else {
+
+        }
+        elem_container_autores.innerHTML += (autor.url.length == 0)? `
+        <li>
+            <p>${autor.nombre}</p>
+        </li>` : `
         <li>
             <a href="${autor.url}">${autor.nombre}</a>
-        </li>`
+        </li>
+        `
     })
 
     elem_resumen.textContent = data_articulo.resumen
