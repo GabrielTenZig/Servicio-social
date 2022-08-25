@@ -139,6 +139,10 @@
     width: fit-content;
 }
 
+.modal > a {
+    word-break: break-all;
+}
+
 .modal > ul > li {
     margin-bottom: 0.5rem;
 }

@@ -42,6 +42,7 @@ const mostrar_modal_articulo = async (id_param) => {
     const elem_container_autores = document.getElementsByClassName('modal__container_autores')[0]
     const elem_resumen = document.getElementsByClassName('modal__resumen')[0]
     const elem_enlace_articulo = document.getElementsByClassName('modal__enlace_articulo')[0]
+    const elem_enlace_al_pdf = document.getElementsByClassName('modal__enlace_pdf')[0]
 
     // Se limpian los campos del modal
     elem_nombre.textContent = ""
@@ -74,6 +75,7 @@ const mostrar_modal_articulo = async (id_param) => {
     elem_resumen.textContent = data_articulo.resumen
     elem_enlace_articulo.textContent = data_articulo.enlace_al_articulo_publicado
     elem_enlace_articulo.href = data_articulo.enlace_al_articulo_publicado
+    elem_enlace_al_pdf.src = data_articulo.enlace_al_pdf
 }
 
 ////////////  FUNCION PARA RECUPERAR UN INTEGRANTE DADO UN ID  ///////////

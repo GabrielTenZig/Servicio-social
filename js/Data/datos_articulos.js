@@ -67,6 +67,7 @@ export default [
         ],
         resumen: 'El presente escrito hace referencia a la noción filosófica de "lo a priori constitutivo". Dicho concepto es deudor directo de la propuesta metodológica de Michael Friedman que intenta demostrar que la interpretación empírica depende de ciertos elementos constitutivos de las teorías científicas. La concepción misma de constitutividad permite entender el rol que juegan algunos aspectos del aparato matemático subyacente a las teorías físico-científicas, como algo más que meras herramientas de cálculo o medición algorítmica. La tesis de los principios constitutivos de Friedman se encamina a mostrar que la interpretación de Willard Van Orman Quine en torno al conocimiento a priori, se erige sobre cimientos endebles y problemáticos. Las sentencias quineanas que desembocan en lo que Friedman llama "el naturalismo filosófico", terminan por un lado negando la existencia de una parte fundamental de las teorías científicas modernas, a saber, la parte propiamente a priori constitutiva. En este trabajo se analizan algunos de los argumentos que Friedman presenta en contra del naturalismo quineano y se puntualiza el reconocimiento de esta parte constitutiva de algunas teorías Físicas representada por un fundamento geométrico. El escrito a su vez se presenta como una introducción a un trabajo más amplio que tiende a extender la idea de lo a priori constitutivo a otras áreas del pensamiento y la cultura humana.',
         enlace_al_articulo_publicado: "https://www.researchgate.net/publication/354881473_Lo_a_priori_y_el_caracter_constitutivo_de_la_geometria",
+        enlace_al_pdf: "https://gabrieltenzig.github.io/Servicio-social/articulos/lo_a_priori_y_el_caracter_constitutivo_de_la_geometria.pdf",
     },
 
     {
@@ -117,6 +118,7 @@ export default [
         ],
         resumen: "Las lenguas indígenas han ido desapareciendo a lo largo de los años, para ayudar a contrarrestar este suceso se han implementado estrategias permitan a la población conocer sobre las distintas lenguas indígenas que hay en el país. Una de esas estrategias es la preservación, promoción y preservación de la lengua  mediante herramientas tecnológicas de extensa difusión.",
         enlace_al_articulo_publicado: "https:revista_cientifica.mx/edición_vigecimosexta/ la-importancia-de-la-preservación-promoción-y-difusión-de-la-lengua-zapoteca",
+        enlace_al_pdf: "https://gabrieltenzig.github.io/Servicio-social/articulos/aplicaciones_para_dispositivos_moviles_utilizando_frameworks_de_software_libre_Caso_de_estudio_IONIC_y_CAPACITOR.pdf"
     },
     {
         id: 4,
@@ -198,6 +200,7 @@ export default [
         ],
         resumen: "Un enfoque para resolver el problema de programación de compras utilizando algoritmos genéticos simples y de agrupación basados ​​en el enfoque de Paretian para modelar el problema bioobjetivo relacionado.",
         enlace_al_articulo_publicado: "https://www.researchgate.net/publication/348355880_Solution_of_a_purchasing_scheduling_problem_with_constrained_funds_through_a_genetic_algorithm_based_on_the_Paretian_approach",
+        enlace_al_pdf: "https://gabrieltenzig.github.io/Servicio-social/articulos/SOLUTION_OF_A_PURCHASING_SCHEDULING_PROBLEM_WITH_CONSTRAINED_FUNDS_Through_A_GENETIC_algorithm_based_on_THE_paretian_approach.pdf"
     },
 
     {
@@ -212,6 +215,7 @@ export default [
         ],
         resumen: "Presentación de un Problema de Programación de Compras bi-objetivo resuelto mediante el enfoque Paretiano con un algoritmo de sistema de colonias de hormigas.",
         enlace_al_articulo_publicado: "https://www.researchgate.net/publication/348356078_Solution_of_a_Bi-Objective_Purchasing_Scheduling_Problem_with_Constrained_Funds_using_Pareto_Optimization",
+        enlace_al_pdf: "https://gabrieltenzig.github.io/Servicio-social/articulos/solution_of_a_Bi-Objective_Purchasing_Scheduling_Problem_with_Constrained_Funds_using_Pareto_Optimization.pdf",
     },
 
     {
@@ -240,6 +244,7 @@ export default [
         ],
         resumen: 'El presente trabajo de tesis se denomina “Desarrollo de un sistema de control de incidencias para el departamento de Servicios Escolares dentro de la Universidad del Mar campus Puerto Escondido”. El cual tiene como objetivo principal desarrollar el prototipo de un sistema para el control del envío de incidencias de profesores y alumnos, mediante el usode tecnología móvil y web para el Departamento de Servicios Escolares de este campus. Este trabajo consta de dos aplicaciones: la primera para el dispositivo móvil Pocket PC y laotra para el servidor de datos, la cual está desarrollada en Visual Studio 2008 y SQL Server 2008. La aplicación para el dispositivo móvil consta de 4 módulos: el módulo de “Accesoa Usuarios” valida que el usuario acceda correctamente al sistema. El módulo “Generar Incidencias” realiza el levantamiento de una incidencia generada por algún alumno o profesor. El módulo “Consultar Incidencias” verifica que la incidencia fue agregada correctamente y podrá realizar modificaciones a alguna incidencia. El modulo “Agregar Reglas de Convivencia” registra las reglas de convivencia que no estén agregadas en labase de datos. La aplicación del servidor de datos consta de 4 módulos: El módulo “ABC de Alumnos” el cual se podrán agregar altas, bajas y consultas de alumnos que no estén registrados. El módulo “ABC de Profesores” el cual se podrán agregar altas, bajas y consultas de profesores que no estén registrados. El módulo “Generar Reportes” permite visualizar las incidencias que se agregaron desde el dispositivo móvil. El módulo “Modificar Usuarios” que tiene como finalidad el realizar cambios a los usuarios existentes. El resultado de esta tesis es la creación de dos aplicaciones tanto para el dispositivo móvil como para el servidor de datos, las cuales fueron probadas en distintos puntos delcampus de la universidad, obteniendo tiempos promedio de respuesta de 110:25 segundos para generar y dar seguimiento a una incidencia, mientras que generarla lleva a la aplicación 51:16 segundos y consultarla le toma 53:35 segundos. De acuerdo con las características del dispositivo móvil se obtiene una eficiencia del 53% en el rango de cobertura del Pocket PC con respecto a los valores teóricos definidos para los dispositivos. Con lo cual se logra la cobertura en un área limitada de la aplicación móvil para la operación del proceso de control de incidencias de Servicios Escolares.',
         enlace_al_articulo_publicado: "http://bibliotecape.umar.mx:8080/TESIS/items/show/153",
+        enlace_al_pdf: "https://gabrieltenzig.github.io/Servicio-social/articulos/desarrollo_de_un_sistema_de_control_de_incidencias_para_el_departamento_de_servicios_escolares.pdf"  
     },
 
     {
@@ -254,6 +259,7 @@ export default [
         ],
         resumen: 'En esta investigación se aborda el problema de la asignación de recursos en la adquisición de materiales o equipos en el sector público, con un enfoque combinatorio. Para ello se implementa un solucionador con dos algoritmos metaheurísticos para resolver el problema con el objetivo de optimizar el tiempo de las tareas relacionadas y obtener el aprovechamiento óptimo de los recursos económicos disponibles, así como la satisfacción de la demanda y la minimización de los tiempos de preparación de los pedidos. Los algoritmos metaheurísticos han demostrado ser estrategias eficientes para resolver problemas combinatorios; sin embargo, no existen trabajos documentados que se relacionen directamente con el problema de adquisición de bienes en el sector público, caso de estudio abordado en el presente trabajo; de la misma forma, se han aplicado para resolver otros tipos de problemas combinatorios tales como inventarios y producción, con el objetivo de optimizar costos en los procesos. Por ello, se propone en el presente trabajo un modelo matemático de programación entera, para resolver un problema de adquisición de bienes con recursos limitados, el cual es resuelto a través de dos algoritmos metaheurísticos: el algoritmo Genético Simple, conocido como un algoritmo eficaz en problemas de agrupación; y el algoritmo de Sistema de Colonia de Hormigas, conocido como una opción viable en problemas de planificación de rutas. Estos algoritmos fueron probados con un conjunto de casos de prueba generados para el problema. La aplicación desarrollada incluye también un escenario determinista, basado en prioridades por el atributo de proveedor, incluido como consecuencia de una restricción operativa del caso de estudio. Las pruebas realizadas sobre los algoritmos muestran que el algoritmo Genético obtiene el 98% de optimización de la función objetivo formulada para el problema, mientras que el algoritmo de Optimización de Colonia de Hormigas logra el 82% en un tiempo de cómputo razonable (38 seg. y 26 seg. respectivamente). Lo que demuestra que el problema formulado corresponde a la familia de problemas de agrupación. Lo que muestra la viabilidad del uso de algoritmos metaheurísticos en la solución de problemas con satisfacción de restricciones, los cuales constituyen la base para el desarrollo de sistemas de planeación de tipo ERP (Enterprise Resource Planning), con múltiples aplicaciones tanto organizacionales como industriales.',
         enlace_al_articulo_publicado: "http://bibliotecape.umar.mx:8080/TESIS/items/show/122",
+        enlace_al_pdf: "https://gabrieltenzig.github.io/Servicio-social/articulos/solucion_del_problema_de_asignacion_de_recursos_en_la_adquisicion_de_bienes_implementando_algoritmos_metaheuristicos.pdf",
     },
 
     {
@@ -276,5 +282,6 @@ export default [
         ],
         resumen: "Aplicación del método de perfiles para el reconocimiento de los números de las tarjetas de registro de asistencia de la Universidad del Mar",
         enlace_al_articulo_publicado: "https://www.researchgate.net/publication/348356094_Segmentacion_y_Clasificacion_de_Numeros_Provenientes_de_Tarjetas_de_Registro_de_Asistencia",
+        enlace_al_pdf: "https://gabrieltenzig.github.io/Servicio-social/articulos/segmentacion_y_clasificacion_de_numeros_provenientes_de_tarjetas_de_registro_de_asistencia_ArtIv3.pdf",
     }
 ]
