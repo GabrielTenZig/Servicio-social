@@ -4,7 +4,7 @@ const cards_articulos_container = document.getElementsByClassName("cards_articul
 
 data_articulos.forEach(data_articulo => {
     cards_articulos_container.innerHTML += `
-        <div class="card_articulo">
+        <div class="card_articulo" id="id_articulo=${data_articulo.id}">
             <h2> ${data_articulo.nombre} </h2>
             <span>
                 <p> Publicado al: </p>

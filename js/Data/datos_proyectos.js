@@ -59,15 +59,15 @@ export default [
             },
             {
                 nombre: "Desarrollo de una aplicación móvil híbrida para el despliegue de una galería fotográfica utilizando los frameworks open source Ionic y Capacitor.",
-                url: "./articulos.html#Desarrollo_apli_movil"
+                url: "./articulos.html#id_articulo=4"
             },
             {
                 nombre: "La importancia de las tecnologías móviles como herramientas de promoción y difusión de una educación incluyente hacia las lenguas indígenas en el estado de Oaxaca.",
-                url: "./articulos.html#Importancia_tec_moviles"
+                url: "./articulos.html#id_articulo=5"
             },
             {
                 nombre: "Análisis del contexto socioeconómico-tecnológico de la población indígena en una institución de educación superior del estado de Oaxaca.",
-                url: "./articulos.html#analisis_contexto_socioeconomico"
+                url: "./articulos.html#id_articulo=x"
             }
         ]
     },
@@ -97,15 +97,15 @@ export default [
         produccion_academica_relacionada: [
             {
                 nombre: "Solution for a purchasing scheduling problem through a genetic algorithm based on the Paretian approach.",
-                url: "./articulos.html#Solution_purchasing"
+                url: "./articulos.html#id_articulo=6"
             },
             {
                 nombre: "Solving the Bi-Objective Purchasing Scheduling Problem with constrained funds using Pareto Optimization.",
-                url: "./articulos.html#Solving_Bi-Objetive"
+                url: "./articulos.html#id_articulo=7"
             },
             {
                 nombre: "An Ant Colony System Meaheuristic for Solving a Bi-Objective Purchasing Scheduling Problem.",
-                url: "./articulos.html#An_ant_colony"
+                url: "./articulos.html#id_articulo=8"
             }
         ]
     },
@@ -135,11 +135,11 @@ export default [
         produccion_academica_relacionada: [
             {
                 nombre: "Tesis de la Licenciatura en Informática: Desarrollo de un Sistema de control de incidencias para el Departamento de Servicios Escolares dentro de la Universidad del Mar campus Puerto Escondido.",
-                url: "./articulos.html#Tesis_desarrollo_sistema_control"
+                url: "./articulos.html#id_articulo=9"
             },
             {
                 nombre: "Tesis de la Licenciatura en Informática: Solución del problema de asignación de recursos en la adquisición de bienes implementando algoritmos metaheurísticos.",
-                url: "./articulos.html#Tesis_solucion_problema"
+                url: "./articulos.html#id_articulo=10"
             }
         ]
     },
@@ -169,7 +169,7 @@ export default [
         produccion_academica_relacionada: [
             {
                 nombre: "Segmentación y Clasificación de Números Provenientes de Tarjetas de Registro de Asistencia.",
-                url: "./articulos.html#Segmentacion_y_clasificacion_numeros"
+                url: "./articulos.html#id_articulo=11"
             },
         ]
     },
