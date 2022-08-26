@@ -77,11 +77,11 @@ export default [
                 lista_producciones: [
                     {
                         cita: "Delgado-Orta, J., Ochoa-Somuano, J., Cruz-Maldonado, O., López-Vásquez, A. & Ayala-Zúñiga, A. (12-13 de diciembre de 2019). Solution for a purchasing scheduling problem through a genetic algorithm based on the Paretian approach MULTILOG Conference 2019. Universidad del Mar.",
-                        link_externo: ""
+                        link_externo: "#"
                     },
                     {
                         cita: "Delgado-Orta, J., Ochoa-Somuano, J., Cruz-Maldonado, O., López-Vásquez, A. & Ayala-Zúñiga, A. (12-13 de diciembre de 2019). Exact planning for an institutional soccer scheduling problem MULTILOG Conference 2019. Universidad del Mar.",
-                        link_externo: ""
+                        link_externo: "#"
                     },
                 ]
             }
@@ -194,14 +194,14 @@ export default [
         ],
         proyectos: [
             {
-                nombre: "Desarrollo de aplicaciones móviles para la preservación y difusión de la lengua zapoteca.",
-                url: "./proyectos.html#aplicacines_difusion_zapoteca"
+                nombre: "Desarrollo de aplicaciones móviles para la preservación, promoción y difusión de la lengua zapoteca.",
+                url: "./proyectos.html#id_proyecto=1"
             }
         ],
         articulos: [
             {
                 nombre: "La importancia de la preservación, promoción y difusión de la lengua zapoteca.",
-                url: "./articulos.html#importancia_difusion_zapoteca"
+                url: "./articulos.html#id_articulo=1"
             }
         ],
         tesis: [
@@ -352,13 +352,13 @@ export default [
         proyectos: [
             {
                 nombre: "Ejemplo",
-                url: "./proyectos.html#ejemplo"
+                url: "./proyectos.html#id_proyecto=x"
             },
         ],
         articulos: [
             {
                 nombre: "Ejemplo.",
-                url: "./articulos.html#ejemplo"
+                url: "./articulos.html#id_articulo=x"
             },
         ],
         tesis: [
@@ -459,47 +459,39 @@ export default [
         ],
         proyectos: [
             {
-                nombre: "Desarrollo de aplicaciones móviles para la preservación y difusión de la lengua zapoteca.",
-                url: "./proyectos.html#aplicacines_difusion_zapoteca"
+                nombre: "Desarrollo de aplicaciones móviles para la preservación, promoción y difusión de la lengua zapoteca.",
+                url: "./proyectos.html#id_proyecto=1"
             },
             {
-                nombre: "Proyecto 2: Desarrollo de aplicaciones móviles para la preservación y difusión de la lengua zapoteca.",
-                url: "./proyectos.html#2aplicacines_difusion_zapoteca"
+                nombre: "Proyecto 2: [PROYECTO DE RELLENO] Desarrollo de aplicaciones móviles para la preservación y difusión de la lengua zapoteca.",
+                url: "./proyectos.html#id_proyecto=x"
             },
             {
-                nombre: "Proyeto 3: Desarrollo de aplicaciones móviles para la preservación y difusión de la lengua zapoteca.",
-                url: "./proyectos.html#3aplicacines_difusion_zapoteca"
+                nombre: "Proyeto 3: [PROYECTO DE RELLENO] Desarrollo de aplicaciones móviles para la preservación y difusión de la lengua zapoteca.",
+                url: "./proyectos.html#id_proyecto=x"
             },
             {
-                nombre: "Agregando más texto al título del Proyecto 4: Desarrollo de aplicaciones móviles para la preservación y difusión de la lengua zapoteca.",
-                url: "./proyectos.html#4aplicacines_difusion_zapoteca"
+                nombre: "Proyecto 4: [PROYECTO DE RELLENO] Desarrollo de aplicaciones móviles para la preservación y difusión de la lengua zapoteca.",
+                url: "./proyectos.html#id_proyecto=x"
             }
         ],
         articulos: [
             {
                 nombre: "La importancia de la preservación, promoción y difusión de la lengua zapoteca.",
-                url: "./articulos.html#importancia_difusion_zapoteca"
+                url: "./articulos.html#id_articulo=1"
             },
             {
-                nombre: "Artículo 2: La importancia de la preservación, promoción y difusión de la lengua zapoteca.",
-                url: "./articulos.html#importancia_difusion_zapoteca"
+                nombre: "Artículo 2: [ARTÍCULO DE RELLENO] La importancia de la preservación, promoción y difusión de la lengua zapoteca.",
+                url: "./articulos.html#id_articulo=x"
             },
             {
-                nombre: "Artículo 3: La importancia de la preservación, promoción y difusión de la lengua zapoteca.",
-                url: "./articulos.html#importancia_difusion_zapoteca"
+                nombre: "Artículo 3: [ARTÍCULO DE RELLENO] La importancia de la preservación, promoción y difusión de la lengua zapoteca.",
+                url: "./articulos.html#id_articulo=x"
             },
             {
-                nombre: "Artículo 4: La importancia de la preservación, promoción y difusión de la lengua zapoteca.",
-                url: "./articulos.html#importancia_difusion_zapoteca"
+                nombre: "Artículo 4: [ARTÍCULO DE RELLENO] La importancia de la preservación, promoción y difusión de la lengua zapoteca.",
+                url: "./articulos.html#id_articulo=x"
             },
-            {
-                nombre: "Artículo 5: La importancia de la preservación, promoción y difusión de la lengua zapoteca.",
-                url: "./articulos.html#importancia_difusion_zapoteca"
-            },
-            {
-                nombre: "Artículo 6: La importancia de la preservación, promoción y difusión de la lengua zapoteca.",
-                url: "./articulos.html#importancia_difusion_zapoteca"
-            }
         ],
         tesis: [
             {
@@ -508,7 +500,7 @@ export default [
                 grado_academico: "Licenciatura",
                 programa_educativo: "Licenciatura en XX",
                 estatus: "Finalizada",
-                fecha_finalizacion: "..."
+                fecha_finalizacion: "Fecha x"
             },
         ],
         produccion_academica: [
@@ -580,13 +572,13 @@ export default [
         proyectos: [
             {
                 nombre: "Ejemplo",
-                url: "./proyectos.html#ejemplo"
+                url: "./proyectos.html#id_proyecto=x"
             },
         ],
         articulos: [
             {
                 nombre: "Ejemplo",
-                url: "./articulos.html#ejemplo"
+                url: "./articulos.html#id_articulo=x"
             },
         ],
         tesis: [
@@ -596,7 +588,7 @@ export default [
                 grado_academico: "Licenciatura",
                 programa_educativo: "Licenciatura en XX",
                 estatus: "Finalizada",
-                fecha_finalizacion: "..."
+                fecha_finalizacion: "Fecha x"
             },
         ],
         produccion_academica: [

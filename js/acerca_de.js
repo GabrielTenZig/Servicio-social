@@ -60,7 +60,7 @@ const mostrar_modal_integrante = async (id_param) => {
     const elem_container_correos = document.getElementsByClassName('modal__container_correos')[0]
     const elem_container_proyectos = document.getElementsByClassName('modal__container_proyectos')[0]
     const elem_container_articulos = document.getElementsByClassName('modal__container_articulos')[0]
-    const elem_container_tesis = document.getElementsByClassName('modal__conatiner_tesis')[0]
+    const elem_container_tesis = document.getElementsByClassName('modal__container_tesis')[0]
     const elem_container_producc_academ = document.getElementsByClassName('modal__container_produccion_academica')[0]
 
     // Se limpian los campos del modal
@@ -118,7 +118,7 @@ const mostrar_modal_integrante = async (id_param) => {
         console.log("Entro")
         elem_container_tesis.innerHTML += `
         <li>
-            <p>Título: <span>${tesis.nombre}</span></p>
+            <p>${tesis.nombre}</p>
             <p>Autor: <span>${tesis.alumno}</span></p>
             <p>Grado académico: <span>${tesis.grado_academico}</span></p>
             <p>Programa educativo: <span>${tesis.programa_educativo}</span></p>
@@ -144,12 +144,6 @@ const mostrar_modal_integrante = async (id_param) => {
         </li>
         `
     })
-        
-    // data_integrantes
-    
-    // data_integrante.lineas_aplicacion.forEach(linea_aplicacion => {
-        //     elem_container_lineas_aplicacion.innerHTML += `<li>${linea_aplicacion}</li>`
-        // })
 }
 
 ////////////  FUNCION PARA RECUPERAR UN INTEGRANTE DADO UN ID  ///////////

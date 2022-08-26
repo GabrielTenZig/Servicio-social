@@ -163,26 +163,6 @@ export default [
                 nombre: "M. en C. José Francisco Delgado Orta",
                 url: "./acerca_de.html#id_integrante=2"
             },
-            // {
-            //     nombre: "Dr. Ángel Salvador Vásquez López",
-            //     url: "./acerca_de.html#id_integrante=4"
-            // },
-            // {
-            //     nombre: "Dr. Jorge Ochoa Somuano",
-            //     url: "./acerca_de.html#id_integrante=3"
-            // },
-            // {
-            //     nombre: "M. en .C Omar Antonio Cruz Maldonado",
-            //     url: "./acerca_de.html#id_integrante=1"
-            // },
-            // {
-            //     nombre: "Dr. Ángel Antonio Ayala Zuñiga",
-            //     url: "./acerca_de.html#id_integrante=0"
-            // },
-            // {
-            //     nombre: "Dra. María Alejandra Menéndez Ortiz",
-            //     url: "./acerca_de.html#id_integrante=5"
-            // }
         ],
         resumen: "Se desconoce el contenido.",
         enlace_al_articulo_publicado: "#",

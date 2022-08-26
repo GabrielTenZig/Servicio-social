@@ -6,7 +6,7 @@ const cards_proyectos_container = document.getElementsByClassName("cards_proyect
 
 data_proyectos.forEach(data_proyecto => {
     cards_proyectos_container.innerHTML += `
-        <div class="card_proyecto">
+        <div class="card_proyecto" id="id_proyecto=${data_proyecto.id}">
             <h2> ${data_proyecto.nombre} </h2>
             <span>
                 <p> Estado: </p>

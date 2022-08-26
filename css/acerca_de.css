@@ -202,6 +202,27 @@ section:last-child {
     margin-bottom: 0.5rem;
 }
 
+.modal__container_tesis > li {
+    /* background-color: orange; */
+    margin-top: 3rem;
+}
+
+
+.modal__container_tesis > li > p {
+    font-weight: bold;
+    color: #585858;
+    margin-bottom: 0.3rem;
+}
+
+.modal__container_tesis > li > p:first-child {
+    margin-bottom: 1rem;
+    /* color: #333; */
+}
+.modal__container_tesis > li > p > span {
+    font-weight: normal;
+    /* color: #333; */
+}
+
 .modal__container_produccion_academica > li {
     /* background-color: rgba(102, 51, 153, 0.335); */
     text-align: center;
