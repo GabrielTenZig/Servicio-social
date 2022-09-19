@@ -124,14 +124,14 @@ export default [
     {
         id: 4,
         nombre: "Desarrollo de una aplicación móvil híbrida para el despliegue de una galería fotográfica utilizando los frameworks open source Ionic y Capacitor",
-        fecha_publicacion: "Se desconoce la fecha",
+        fecha_publicacion: "21 de abril de 2022",
         autores: [
             {
                 nombre: "M. en C. José Francisco Delgado Orta",
                 url: "./acerca_de.html#id_integrante=2"
             },
         ],
-        resumen: "Se desconoce el contenido.",
+        resumen: "El presente trabajo aborda la construcción de una aplicación móvil de tipo galería de fotografías a partir del uso de los marcos de trabajo (frameworks) de tipo open source Ionic y Capacitor. De la misma forma, se realiza un análisis de los trabajos relacionados que establecen las ventajas de estas tecnologías para su uso dentro del desarrollo de software para dispositivos móviles, haciéndo énfasis en las aplicaciones híbridas en cuanto a menores tiempos de programación con respecto a las aplicaciones nativas y web existentes para los dispositivos móviles. Por consiguiente, la construcción de la aplicación híbrida se presenta en una forma estructurada, partiendo desde los entornos de desarrollo web, y en donde los frameworks facilitan la reutilización del código fuente, permitendo también la programación del hardware del dispositivo y la generación de una aplicación nativa, la cual se puede instalar en los sistemas operativos Android e iOS, siendo los sistemas para dispositivos móviles con la mayor cantidad de usuarios a nivel mundial.",
         enlace_al_articulo_publicado: "http://www.cienciaymar.mx/Revista/index.php/cienciaymar/issue/view/80",
         enlace_al_pdf: "https://gabrieltenzig.github.io/Servicio-social/articulos/desarrollo_de_una_aplicación_móvil_híbrida_para_el_despliegue_de_una_galería_fotográfica.pdf"
     },

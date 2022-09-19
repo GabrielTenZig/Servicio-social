@@ -19,15 +19,12 @@
                 <ul>
                     <li><a href="#1">Arquitectura de carpetas del proyecto</a></li>
                     <li><a href="#2">¿Cómo modificar la página "Inicio" del sitio web?</a></li>
-                    <li><a href="">¿Cómo modificar la página "Acerca de" del sitio web?</a></li>
-                    <li><a href="">¿Cómo agregar un nuevo integrante?</a></li>
-                    <li><a href="">¿Cómo modificar la página "Proyectos" del sitio web?</a></li>
-                    <li><a href="">¿Cómo agregar un nuevo proyecto?</a></li>
-                    <li><a href="">¿Cómo modificar la página "Artículos" del sitio web?</a></li>
-                    <li><a href="">¿Cómo agregar un nuevo artículo?</a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="#3">¿Cómo modificar la página "Acerca de" del sitio web?</a></li>
+                    <li><a href="#4">¿Cómo agregar un nuevo integrante?</a></li>
+                    <li><a href="#5">¿Cómo modificar la página "Proyectos" del sitio web?</a></li>
+                    <li><a href="#6">¿Cómo agregar un nuevo proyecto?</a></li>
+                    <li><a href="#7">¿Cómo modificar la página "Artículos" del sitio web?</a></li>
+                    <li><a href="#8">¿Cómo agregar un nuevo artículo?</a></li>
                 </ul>
             </details>
         </nav>
@@ -38,7 +35,7 @@
 
 
         <section>
-            <h2>Arquitectura de carpetas del proyecto</h2>
+            <h2 id="1">Arquitectura de carpetas del proyecto</h2>
             <p>A continuación se muestra la arquitectura de carpetas del proyecto.</p>
             <img src="./images/001.jpg" alt="Arquitectura de carpetas del proyecto del sitio web del Cuerpo Académico Sistemas Inteligentes.">
             <p>Donde:</p>
@@ -62,11 +59,11 @@
 
             <!-- MODIFICAR PÁGINA "INICIO" -->
 
-            <h3 id="1">¿Cómo modificar la página "Inicio" del sitio web?</h3>
+            <h3 id="2">¿Cómo modificar la página "Inicio" del sitio web?</h3>
             <p>Para modificar la información de esta página simplemente se accede al archivo <strong>index.html</strong> y se modifica el texto. Si se desea modificar los estilos, se debe acceder al archivo <strong>css/index.css</strong>.</p>
 
 
-            <h3>¿Cómo modificar la página "Acerca de" del sitio web?</h3>
+            <h3 id="3">¿Cómo modificar la página "Acerca de" del sitio web?</h3>
             <p>Dentro del archivo <strong>acerca_de.html</strong> Se puede modificar todo exepto las tarjetas de los participantes.</p>
             <p>Las tarjetas que aparecen en esta página se insertan desde el archivo <strong>js/acerca_de.js</strong>.</p>
             <p>Este archivo importa datos desde el archivo <strong>js/Data/datos_integrantes.js</strong>. Estos datos se usan para insertar dentro del DOM (document object model) tanto las tarjetas de los integrantes como el modal que aparece al presionar el botón "Ver más" que aparece en las tarjetas.</p>
@@ -75,7 +72,7 @@
             <p>EL codigo está pertinentemente comentado.</p>
             
 
-            <h4>¿Cómo agregar un nuevo integrante?</h4>
+            <h4 id="4">¿Cómo agregar un nuevo integrante?</h4>
             <p>Si se desea agregar la tarjeta de un nuevo integrante, se debe hacer lo siguiente.</p>
             <ol>
                 <li>
@@ -124,7 +121,7 @@
 
             <!-- MODIFICAR PÁGINA "PROYECTOS" -->
 
-            <h3>¿Cómo modificar la página "Proyectos" del sitio web?</h3>
+            <h3 id="5">¿Cómo modificar la página "Proyectos" del sitio web?</h3>
             <p>Dentro del archivo <strong>proyectos.html</strong> Se puede modificar el html de esta página, exepto las tarjetas de los proyectos.</p>
             <p>Las tarjetas que aparecen en esta página se insertan desde el archivo <strong>js/proyectos.js</strong>.</p>
             <p>Este archivo importa datos desde el archivo <strong>js/Data/datos_proyectos.js</strong>. Estos datos se usan para insertar dentro del DOM (document object model) tanto las tarjetas de los proyectos como el modal que aparece al presionar el botón "Ver proyecto" que aparece en las tarjetas.</p>
@@ -132,7 +129,7 @@
             <p>Para modificar la apariencia y estructura de como se muestra la información, es decir como se muestra en las tarjetas y el modal, se debe acceder al archivo <strong>js/proyectos.js</strong> y modificarlo de acuerdo a la apariencia que se busca conseguir.</p>
             <p>EL codigo está pertinentemente comentado.</p>
 
-            <h4>¿Cómo agregar un nuevo proyecto?</h4>
+            <h4 id="6">¿Cómo agregar un nuevo proyecto?</h4>
             <p>Si se desea agregar la tarjeta de un nuevo proyecto, se debe hacer lo siguiente.</p>
             <ol>
                 <li>
@@ -172,7 +169,7 @@
 
             <!-- MODIFICAR PÁGINA "ARTÍCULOS" -->
 
-            <h3>¿Cómo modificar la página "Artículos" del sitio web?</h3>
+            <h3 id="7">¿Cómo modificar la página "Artículos" del sitio web?</h3>
             <p>Dentro del archivo <strong>articulos.html</strong> Se puede modificar el html de esta página, exepto las tarjetas de los artículos.</p>
             <p>Las tarjetas que aparecen en esta página se insertan desde el archivo <strong>js/articulos.js</strong>.</p>
             <p>Este archivo importa datos desde el archivo <strong>js/Data/datos_articulos.js</strong>. Estos datos se usan para insertar dentro del DOM (document object model) tanto las tarjetas de los artículos como el modal que aparece al presionar el botón "Ver más" que aparece en las tarjetas.</p>
@@ -180,7 +177,7 @@
             <p>Para modificar la apariencia y estructura de cómo se muestra la información, es decir cómo se muestra en las tarjetas y el modal, se debe acceder al archivo <strong>js/articulos.js</strong> y modificarlo de acuerdo a la apariencia que se busca conseguir.</p>
             <p>EL codigo está pertinentemente comentado.</p>
 
-            <h4>¿Cómo agregar un nuevo artículo?</h4>
+            <h4 id="8">¿Cómo agregar un nuevo artículo?</h4>
             <p>Si se desea agregar la tarjeta de un nuevo artículo, se debe hacer lo siguiente.</p>
             <ol>
                 <li>
