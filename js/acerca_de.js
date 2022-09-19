@@ -2,6 +2,7 @@ import data_integrantes from "./Data/datos_integrantes.js"
 
 const cards_integrantes_container = document.getElementsByClassName("cards_integrantes")[0]
 
+// Se accede a la data importada y se inserta en el DOM
 data_integrantes.forEach(data_integrante => {
     console.log("AA: ", data_integrante.correos)
 

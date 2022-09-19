@@ -9,7 +9,7 @@ export default [
                 url: "./acerca_de.html#id_integrante=2"
             },
             {
-                nombre: "Dr. Ángel Salvador Vásquez López",
+                nombre: "Dr. Ángel Salvador López Vásquez",
                 url: "./acerca_de.html#id_integrante=4"
             },
             {
@@ -31,6 +31,7 @@ export default [
         ],
         resumen: "Las lenguas indígenas han ido desapareciendo a lo largo de los años, para ayudar a contrarrestar este suceso se han implementado estrategias permitan a la población conocer sobre las distintas lenguas indígenas que hay en el país. Una de esas estrategias es la preservación, promoción y preservación de la lengua  mediante herramientas tecnológicas de extensa difusión.",
         enlace_al_articulo_publicado: "https:revista_cientifica.mx/edición_vigecimosexta/ la-importancia-de-la-preservación-promoción-y-difusión-de-la-lengua-zapoteca",
+        enlace_al_pdf: ""
     },
 
 
@@ -45,7 +46,7 @@ export default [
                 url: "./acerca_de.html#id_integrante=2"
             },
             {
-                nombre: "Dr. Ángel Salvador Vásquez López",
+                nombre: "Dr. Ángel Salvador López Vásquez",
                 url: "./acerca_de.html#id_integrante=4"
             },
             {
@@ -80,7 +81,7 @@ export default [
                 url: "./acerca_de.html#id_integrante=2"
             },
             {
-                nombre: "Dr. Ángel Salvador Vásquez López",
+                nombre: "Dr. Ángel Salvador López Vásquez",
                 url: "./acerca_de.html#id_integrante=4"
             },
             {
@@ -129,43 +130,25 @@ export default [
                 nombre: "M. en C. José Francisco Delgado Orta",
                 url: "./acerca_de.html#id_integrante=2"
             },
-            // {
-            //     nombre: "Dr. Ángel Salvador Vásquez López",
-            //     url: "./acerca_de.html#id_integrante=4"
-            // },
-            // {
-            //     nombre: "Dr. Jorge Ochoa Somuano",
-            //     url: "./acerca_de.html#id_integrante=3"
-            // },
-            // {
-            //     nombre: "M. en .C Omar Antonio Cruz Maldonado",
-            //     url: "./acerca_de.html#id_integrante=1"
-            // },
-            // {
-            //     nombre: "Dr. Ángel Antonio Ayala Zuñiga",
-            //     url: "./acerca_de.html#id_integrante=0"
-            // },
-            // {
-            //     nombre: "Dra. María Alejandra Menéndez Ortiz",
-            //     url: "./acerca_de.html#id_integrante=5"
-            // }
         ],
         resumen: "Se desconoce el contenido.",
-        enlace_al_articulo_publicado: "#",
+        enlace_al_articulo_publicado: "http://www.cienciaymar.mx/Revista/index.php/cienciaymar/issue/view/80",
+        enlace_al_pdf: "https://gabrieltenzig.github.io/Servicio-social/articulos/desarrollo_de_una_aplicación_móvil_híbrida_para_el_despliegue_de_una_galería_fotográfica.pdf"
     },
 
     {
         id: 5,
         nombre: "La importancia de las tecnologías móviles como herramientas de promoción y difusión de una educación incluyente hacia las lenguas indígenas en el estado de Oaxaca",
-        fecha_publicacion: "Se desconoce la fecha",
+        fecha_publicacion: "",
         autores: [
             {
                 nombre: "M. en C. José Francisco Delgado Orta",
                 url: "./acerca_de.html#id_integrante=2"
             },
         ],
-        resumen: "Se desconoce el contenido.",
-        enlace_al_articulo_publicado: "#",
+        resumen: "",
+        enlace_al_articulo_publicado: "",
+        enlace_al_pdf: ""
     },
 
     {
@@ -210,6 +193,7 @@ export default [
         ],
         resumen: "Solución de un Problema de Programación de Compras bi-objetivo mediante el algoritmo tradicional del sistema de colonias de hormigas, creado para satisfacer la maximización de las demandas satisfechas y la minimización de los costos de compra.",
         enlace_al_articulo_publicado: "https://www.researchgate.net/publication/348356085_An_Ant_Colony_System_Metaheuristic_for_Solving_a_Bi-Objective_Purchasing_Scheduling_Problem",
+        enlace_al_pdf: "https://gabrieltenzig.github.io/Servicio-social/articulos/an_ant_colony_system_meaheuristic_for_solving_a_bi-objective_purchasing_scheduling_problem.pdf"
     },
 
     {

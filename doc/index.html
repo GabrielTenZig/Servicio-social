@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentación</title>
+    
+    <link rel="shortcut icon" href="./../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./general_styles.css">
+
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <details>
+                <summary>Desglozar índice</summary>
+                <ul>
+                    <li><a href="#1">Arquitectura de carpetas del proyecto</a></li>
+                    <li><a href="#2">¿Cómo modificar la página "Inicio" del sitio web?</a></li>
+                    <li><a href="">¿Cómo modificar la página "Acerca de" del sitio web?</a></li>
+                    <li><a href="">¿Cómo agregar un nuevo integrante?</a></li>
+                    <li><a href="">¿Cómo modificar la página "Proyectos" del sitio web?</a></li>
+                    <li><a href="">¿Cómo agregar un nuevo proyecto?</a></li>
+                    <li><a href="">¿Cómo modificar la página "Artículos" del sitio web?</a></li>
+                    <li><a href="">¿Cómo agregar un nuevo artículo?</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </details>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Documentación del sitio web</h1>
+
+
+        <section>
+            <h2>Arquitectura de carpetas del proyecto</h2>
+            <p>A continuación se muestra la arquitectura de carpetas del proyecto.</p>
+            <img src="./images/001.jpg" alt="Arquitectura de carpetas del proyecto del sitio web del Cuerpo Académico Sistemas Inteligentes.">
+            <p>Donde:</p>
+            <p>La carpeta <strong>articulos</strong> contiene archivos en formato pdf de los articulos escritos por los miembros del Cuerpo Académico Sitemas Inteligentes.</p>
+            <p>La carpeta <strong>css</strong> contiene los archivos para dar estilo al sitio web. Hay un archivo .css para cada página del sitio web, así como para la barra de navegación, el pie de página, estilos generales y las variables css.</p>
+            <p>La carpeta <strong>doc</strong> almacena los archivos html, css y de imagenes para esta pagina de documentación.</p>
+            <p>La carpeta <strong>images</strong> almacena los archivos de imagen que se utilizan en el sitio web, incluyendo el favicon.ico.</p>
+            <p>Los archivos <strong>.html</strong> son los archivos html de las páginas del sitio web.</p>
+            <p>La carpeta <strong>js</strong> se describe a continuación:</p>
+            <img src="./images/002.jpg" alt="Arquitectura de carpetas de los archivos JavaScript del sitio web.">
+            <p>La carpeta <strong>js</strong> consta de dos partes: la primera es la subcarpeta <strong>Data</strong> y la segunda son los archivos <strong>acerca_de.js</strong>, <strong>articulos.js</strong> y <strong>proyectos.js</strong></p>
+            <p>Los archivos <strong>acerca_de.js</strong>, <strong>articulos.js</strong> y <strong>proyectos.js</strong> continen el codigo para insertar en el html las tarjetas de cada entidad segun sea el nombre del archivo .js. Por ejemplo, el archivo <strong>proyectos.js</strong> inserta dentro de el archivo <strong>proyectos.html</strong> el código html para visualizar las tarjetas de los proyectos. Así como también hace mostrar y ocultar el modal con la información de la entidad de la tarjeta que fue presionada.</p>
+            <p>Los archivos que están dentro de la carpeta <strong>Data</strong> son arhivos que almacenan una estructuras de datos de tipo lista de cada entidad según indica el nombre del archivo. Estos archivos son consultados por los archivos descritos en el parrafo anerior. De manera que, si se desea insertar, modificar o eliminar los datos de las entidades, es en estos archivos donde se debe realizar tal modificación.</p>
+        
+            <p>Si lo que se quiere hacer es modificar las tarjetas y elementos que aparecen en las páginas del sitio, lo mejor es consultar la sección de casos de uso que se encuentra a continuación. Se describe de manera detallada como realizar dichas modificaciones.</p>
+        </section>
+
+        <section>
+            <h2>Casos de uso</h2>
+
+
+            <!-- MODIFICAR PÁGINA "INICIO" -->
+
+            <h3 id="1">¿Cómo modificar la página "Inicio" del sitio web?</h3>
+            <p>Para modificar la información de esta página simplemente se accede al archivo <strong>index.html</strong> y se modifica el texto. Si se desea modificar los estilos, se debe acceder al archivo <strong>css/index.css</strong>.</p>
+
+
+            <h3>¿Cómo modificar la página "Acerca de" del sitio web?</h3>
+            <p>Dentro del archivo <strong>acerca_de.html</strong> Se puede modificar todo exepto las tarjetas de los participantes.</p>
+            <p>Las tarjetas que aparecen en esta página se insertan desde el archivo <strong>js/acerca_de.js</strong>.</p>
+            <p>Este archivo importa datos desde el archivo <strong>js/Data/datos_integrantes.js</strong>. Estos datos se usan para insertar dentro del DOM (document object model) tanto las tarjetas de los integrantes como el modal que aparece al presionar el botón "Ver más" que aparece en las tarjetas.</p>
+            <p>Para modificar la información que aparece tanto en las tarjetas como en el modal, se debe acceder al archivo <strong>js/Data/datos_integrantes.js</strong> y modificar los datos pertinentes.</p>
+            <p>Para modificar la apariencia y estructura de como se muestra la información, es decir como se muestra en las tarjetas y el modal, se debe acceder al archivo <strong>js/acerca_de.js</strong> y modificarlo de acuerdo a la apariencia que se busca conseguir.</p>
+            <p>EL codigo está pertinentemente comentado.</p>
+            
+
+            <h4>¿Cómo agregar un nuevo integrante?</h4>
+            <p>Si se desea agregar la tarjeta de un nuevo integrante, se debe hacer lo siguiente.</p>
+            <ol>
+                <li>
+                    Primero se debe abrir el archivo <strong>js/Data/datos_integrantes.js</strong>. 
+                    <span>Notesé que los datos se guardan con una estructura de datos de tipo lista, es decir, se trata de una lista de integrantes, por cada integrante se crea de manera automatica una tarjeta en la pagina <strong>Acerca de</strong>.</span>
+                </li>
+                <li>
+                    Copiar el ultimo objeto de la lista.
+                    <span>En javascript un objeto es una estructra que agrupa datos usando llaves {} </span>
+                </li>
+                <li>
+                    Pegar el objeto al final de la lista.
+                    <span>Se debe pegar despues del ultimo objeto, pero antes de la llave de cierre de la lista ]</span>
+                </li>
+                <li>
+                    Eliminar la informacion del integrante copiado y escribir la información del nuevo integrante que se va a insertar.
+                    <span>Es importante que no se eliminen los atributos que ya tiene el objeto, a menos que entienda por completo el codigo del sitio web.</span>
+                </li>
+                <li>
+                    Escribir el id correcto del nuevo integrante .
+                    <span>El <strong>id</strong> es el número consecutivo. Se debe consultar el número id del integrante anterior y escribir el número que sigue.</span>
+                </li>
+                <li>
+                    Dentro del integrante insertado hay una lista de proyectos donde participa el integrante. Cuando se agregue se debe considerar lo siguiente:
+                    <span>EL atributo <strong>url</strong> debe tener el formato: <strong>./proyectos.html#id_proyecto=x</strong> donde <strong>x</strong> debe ser sustituido por el id del proyecto en cuestión.</span>
+                    <span>El <strong>id</strong> del proyecto se debe consultar en el archivo <strong>js/Data/datos_protectos.js</strong>.</span>
+                    <span>Si el proyecto no existe, se debe insertar en el archivo <strong>js/Data/data_proyectos.js</strong>, se le asigna un <strong>id</strong> a ese proyecto, se regresa al archivo <strong>js/Data/data_integrantes.js</strong> y se usar dicho <strong>id</strong> en el atributo <strong>url</strong> de este integrante.</span>
+                </li>
+                <li>
+                    Dentro del integrante insertado hay una lista de artículos donde participa el integrante. Cuando se agregue se debe considerar lo siguiente:
+                    <span>EL atributo <strong>url</strong> debe tener el formato: <strong>./articulos.html#id_articulo=x</strong> donde <strong>x</strong> debe ser sustituido por el id del artículo en cuestión.</span>
+                    <span>El <strong>id</strong> del artículo se debe consultar en el archivo <strong>js/Data/datos_articulos.js</strong>.</span>
+                    <span>Si el artículo no existe, se debe insertar en el archivo <strong>js/Data/data_articulos.js</strong>, se le asigna un <strong>id</strong> a ese artículo, se regresa al archivo <strong>js/Data/data_integrantes.js</strong> y se usar dicho <strong>id</strong> en el atributo <strong>url</strong> de este integrante.</span>
+                </li>
+                <li>
+                    Dentro del integrante insertado hay una lista de producción académica donde participa el integrante. 
+                    <span>Se debe prestar mucha atencion a esta lista, ya que varía de acuerdo a cada integrante.</span>
+                    <span>La lista consta de objetos. Cada objeto tiene dos elementos: un nombre de dicha producción y una lista producciones.</span>
+                    <span>El nombre de producción puede ser cualquiera de los siguientes: <strong>"Artículo de difusión y divulgación"</strong>, <strong>"Artículo arbitrado"</strong>, <strong>"Artículos en revista indexada"</strong>, <strong>"Asesoría"</strong>, <strong>"Capítulos de libro"</strong>, <strong>"Consultoría"</strong>, <strong>"Informe técnico"</strong>, <strong>"Libro"</strong>, <strong>"Manuales de operación"</strong>, <strong>"Material de apoyo"</strong>, <strong>"Material didáctico"</strong>, <strong>"Memorias"</strong>, <strong>"Memorias en extenso"</strong>, <strong>"Productividad innovadora"</strong>, <strong>"Producción artística"</strong>, <strong>"Prototipo"</strong> y <strong>"Otra"</strong>.</span>
+                    <span>Se puede ver que son, sin embargo, los integrantes no suelen tener todos los tipos de producciones.</span>
+                    <span>Por ejemplo, si un integrante tiene producciones académicas de tipo <strong>Artículo arbitrado</strong>, <strong>Capítulos de libro</strong> y <strong>Memorias de extenso</strong>. La lista de producción académica de ese integrante deberá tener tres objetos. Un objeto con el <strong>nombre_producción: "Artículo arbitrado"</strong>, el siguiente objeto con el <strong>nombre_producción: "Caítulos de libro"</strong> y el tercer objeto con el <strong>nombre_producción: "Memorias de extenso"</strong>. Además de que cada objeto deberá tener una lista de producciones que corresponda con el <strong>nombre_produccion</strong> correspondiente. Por ejemplo, la lista del objeto con <strong>nombre_produccion: "Memorias de extenso</strong> deberá tener en su <strong>lista_producciones</strong> solo memorias de extenso. A su vez, cada <strong>lista_producciones</strong> tiene dos atributos: <strong>cita</strong> y <strong>link_externo</strong>. La <strong>cita</strong> no es más que el texto que se mostrará en el HTML, y el <strong>link_externo</strong> es el enlace externo que apunta a un sitio web donde se publicó esa producción (en caso de no estar publicado en otro sitio, solo colocar <strong>link_externo: "#"</strong>)</span>
+                    <span>Cabe mencionar que si, por ejemplo, un integrante no tiene <strong>Memorias de extenso</strong>, no hay sentido en colocar un objeto de <strong>Memorias de extenso</strong> dentro de su lista de <strong>produccion_academica</strong>. Ya que ese objeto tendria una <strong>lista_producciones</strong> vacía.</span>
+                </li>
+            </ol>
+
+
+            <!-- MODIFICAR PÁGINA "PROYECTOS" -->
+
+            <h3>¿Cómo modificar la página "Proyectos" del sitio web?</h3>
+            <p>Dentro del archivo <strong>proyectos.html</strong> Se puede modificar el html de esta página, exepto las tarjetas de los proyectos.</p>
+            <p>Las tarjetas que aparecen en esta página se insertan desde el archivo <strong>js/proyectos.js</strong>.</p>
+            <p>Este archivo importa datos desde el archivo <strong>js/Data/datos_proyectos.js</strong>. Estos datos se usan para insertar dentro del DOM (document object model) tanto las tarjetas de los proyectos como el modal que aparece al presionar el botón "Ver proyecto" que aparece en las tarjetas.</p>
+            <p>Para modificar la información que aparece tanto en las tarjetas como en el modal, se debe acceder al archivo <strong>js/Data/datos_proyectos.js</strong> y modificar los datos pertinentes.</p>
+            <p>Para modificar la apariencia y estructura de como se muestra la información, es decir como se muestra en las tarjetas y el modal, se debe acceder al archivo <strong>js/proyectos.js</strong> y modificarlo de acuerdo a la apariencia que se busca conseguir.</p>
+            <p>EL codigo está pertinentemente comentado.</p>
+
+            <h4>¿Cómo agregar un nuevo proyecto?</h4>
+            <p>Si se desea agregar la tarjeta de un nuevo proyecto, se debe hacer lo siguiente.</p>
+            <ol>
+                <li>
+                    Primero se debe abrir el archivo <strong>js/Data/datos_proyectos.js</strong>. 
+                    <span>Notesé que los datos se guardan con una estructura de datos de tipo lista, es decir, se trata de una lista de proyectos, por cada proyecto se crea de manera automatica una tarjeta en la pagina <strong>Proyectos</strong>.</span>
+                </li>
+                <li>
+                    Copiar el ultimo objeto de la lista
+                    <span>En javascript un objeto es una estructra que agrupa datos usando llaves {} </span>
+                </li>
+                <li>
+                    Pegar el objeto al final de la lista.
+                    <span>Se debe pegar despues del ultimo objeto, pero antes de la llave de cierre de la lista ]</span>
+                </li>
+                
+                <li>
+                    Eliminar la informacion del proyecto copiado y escribir la información del nuevo proyecto que se va a insertar.
+                    <span>Es importante que no se eliminen los atributos que ya tiene objeto, a menos que entienda por completo el codigo del sitio web.</span>
+                </li>
+                <li>
+                    Escribir el id correcto del nuevo proyecto.
+                    <span>El id es el número consecutivo. Se debe consultar el número id del proyecto anterior y escribir el número que sigue.</span>
+                </li>
+                <li>
+                    Dentro del proyecto insertado hay una lista de integrantes del CA que participan en este proyecto. Cuando se agregue se debe considerar lo siguiente:
+                    <span>EL atributo <strong>url</strong> debe tener el formato: <strong>./acerca_de.html#id_integrante=x</strong> donde <strong>x</strong> debe ser sustituido por el id del integrante en cuestión.</span>
+                    <span>El <strong>id</strong> del integrante se debe consultar en el archivo <strong>js/Data/datos_integrantes.js</strong>.</span>
+                </li>
+                <li>
+                    Dentro del proyecto insertado hay una lista de producción académica relacionada con este proyecto. Cuando se agregue se debe considerar lo siguiente:
+                    <span>EL atributo <strong>url</strong> debe tener el formato: <strong>./articulos.html#id_articulo=x</strong> donde <strong>x</strong> debe ser sustituido por el id del articulo que se agregó a la pagna <strong>Artículos</strong>.</span>
+                    <span>Si el artículo no se agregó a la pagina <strong>Artículos</strong> entonces el atributo <strong>url</strong> simplemente debe dejarse tal que así: <strong>url: "#"</strong>.</span>
+                    <span>El <strong>id</strong> del artículo se debe consultar en el archivo <strong>js/Data/datos_articulos.js</strong>. Si el articulo no existe aún, entonces se debe agregar al archivo <strong>js/Data/datos_articulos.js</strong>, asignar un <strong>id</strong> y dicho <strong>id</strong> se debe colocar en el atributo <strong>url</strong> de este proyecto.</span>
+                </li>
+            </ol>
+
+
+            <!-- MODIFICAR PÁGINA "ARTÍCULOS" -->
+
+            <h3>¿Cómo modificar la página "Artículos" del sitio web?</h3>
+            <p>Dentro del archivo <strong>articulos.html</strong> Se puede modificar el html de esta página, exepto las tarjetas de los artículos.</p>
+            <p>Las tarjetas que aparecen en esta página se insertan desde el archivo <strong>js/articulos.js</strong>.</p>
+            <p>Este archivo importa datos desde el archivo <strong>js/Data/datos_articulos.js</strong>. Estos datos se usan para insertar dentro del DOM (document object model) tanto las tarjetas de los artículos como el modal que aparece al presionar el botón "Ver más" que aparece en las tarjetas.</p>
+            <p>Para modificar la información que aparece tanto en las tarjetas como en el modal, se debe acceder al archivo <strong>js/Data/datos_articulos.js</strong> y modificar los datos pertinentes.</p>
+            <p>Para modificar la apariencia y estructura de cómo se muestra la información, es decir cómo se muestra en las tarjetas y el modal, se debe acceder al archivo <strong>js/articulos.js</strong> y modificarlo de acuerdo a la apariencia que se busca conseguir.</p>
+            <p>EL codigo está pertinentemente comentado.</p>
+
+            <h4>¿Cómo agregar un nuevo artículo?</h4>
+            <p>Si se desea agregar la tarjeta de un nuevo artículo, se debe hacer lo siguiente.</p>
+            <ol>
+                <li>
+                    Primero se debe abrir el archivo <strong>js/Data/datos_articulos.js</strong>. 
+                    <span>Notesé que los datos se guardan con una estructura de datos de tipo lista, es decir, se trata de una lista de artículos, por cada artículo se crea de manera automatica una tarjeta en la pagina <strong>Artículo</strong>.</span>
+                </li>
+                <li>
+                    Copiar el ultimo objeto de la lista
+                    <span>En javascript un objeto es una estructra que agrupa datos usando llaves {} </span>
+                </li>
+                <li>
+                    Pegar el objeto al final de la lista.
+                    <span>Se debe pegar despues del ultimo objeto, pero antes de la llave de cierre de la lista ]</span>
+                </li>
+                
+                <li>
+                    Eliminar la informacion del artículo copiado y escribir la información del nuevo artículo que se va a insertar.
+                    <span>Es importante que no se eliminen los atributos que ya tiene objeto, a menos que entienda por completo el codigo del sitio web.</span>
+                </li>
+                <li>
+                    Escribir el id correcto del nuevo artículo.
+                    <span>El id es el número consecutivo. Se debe consultar el número id del artículo anterior y escribir el número que sigue.</span>
+                </li>
+                <li>
+                    Dentro del artículo insertado hay una lista de autores del artículo. Cuando se agregue se debe considerar lo siguiente:
+                    <span>La lista se llena con objetos que tienen los atributos: <strong>nombre</strong> y <strong>url</strong>.</span>
+                    <span>En caso de que el autor no sea parte del CASI, entonces el atributo <strong>url</strong> se debe llenar tal que <strong>url: "#"</strong>. Si el autor es parte del CASI, entonces el atributo <strong>url</strong> se debe llenar tal que <strong>url: "./acerca_de.html#id_integrante=x"</strong>. Donde <strong>x</strong> se debe sustituir por el <strong>id</strong> que le corresponde al integrante del CASI. El <strong>id</strong> se puede consultar en el archivo <strong>js/Data/datos_integrantes.js</strong>.</span>
+                </li>
+                <li>
+                    Dentro del artículo insertado está el atributo <strong>enlace_al_articulo_publicado</strong> y el atributo <strong>enlace_al_pdf</strong>. Al llenarlos se debe considerar lo siguiente:
+                    <span>El atributo <strong>enlace_al_articulo_publicado</strong> es un enlace que apunta a un sitio web externo donde se encuentra publicado el pdf del artículo, por ejemplo, puede ser un enlace a <strong>ResearchGate</strong>. Si no se encuentra publicado en ninguna parte, simplemente se llena el atributo tal que <strong>enlace_al_articulo_publicado: "#"</strong>.</span>
+                    <span>El atributo <strong>enlace_al_pdf</strong> es más complicado. Es un enlace que apunta al pdf del artículo, pero dicho pdf se encuentra dentro de este sitio, esoecificamente en la carpeta de <strong>articulos</strong>. La complicación radica en que para que funcione, primero se debe conseguir el pdf del artículo, agregarlo dentro de la carpeta <strong>articulos</strong>, despúes llenar el atributo <strong>enlace_al_pdf</strong> tal que <strong>enlace_al_pdf: "https://dominio/articulos/nombre_articulo.pdf"</strong>. Donde <strong>dominio</strong> es el nombre de dominio del sitio web, <strong>nombre_articulo</strong> es el nombre del archivo pdf del artículo. Se debe asegurar que se agregó la extension .pdf. Esto se refleja en el sitio web en la parte del modal, para visualizar el PDF insertado dentro del modal, sin embargo, no se mostrará el contenido hasta que el codigo del sitio web se publique en el servidor. Es decir, no renderiza el PDF de manera local.</span>
+                </li>
+            </ol>
+       
+        </section>
+
+
+    </main>
+
+</body>
+</html>
